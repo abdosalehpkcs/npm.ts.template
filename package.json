@@ -1,7 +1,7 @@
 {
-    "name": "xk6-common-utils",
+    "name": "npm.ts.template",
     "version": "1.0.0",
-    "description": "This library offers a collection of utility functions and modules that address common funcunalities that are used across other related projects.",
+    "description": "This serves as a TypeScript template for an npm library.",
     "sideEffects": false,
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -30,7 +30,7 @@
         "build:esm": "rollup -c config/rollup.config.esm.cjs",
         "build": "npm run clean && npm run build:self && npm run build:esm"
     },
-    "author": "Abd Alrahman Saleh",
+    "author": "Eng. Abd Alrahman Saleh",
     "files": [
         "/dist",
         "/types",
@@ -86,7 +86,7 @@
         }
     },
     "publishConfig": {
-        "registry": "https://us-e.artifactory.healthcare.siemens.com/artifactory/api/npm/srsng-npm/",
+        "registry": "https://registry.npmjs.org/",
         "access": "public"
     }
 }
